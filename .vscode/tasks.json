@@ -3,25 +3,16 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "command": "F:\\MinGW\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-ggdb",
-                "-pedantic-errors",
-                "-Wall",
-                "-Weffc++",
-                "-Wextra",
-                "-Wconversion",
-                "-Wsign-conversion",
-                "-Werror",
-                "-std=c++20",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "C:\\msys64\\ucrt64\\bin"
+                "cwd": "F:\\MinGW\\bin"
             },
             "problemMatcher": [
                 "$gcc"
